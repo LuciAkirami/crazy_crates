@@ -1,3 +1,5 @@
+mod color;
+
 fn main() {
 
     //strikeLineThrough
@@ -21,5 +23,9 @@ fn main() {
     println!("{}",s2);
     println!("{}",s3);
     println!("{}",s4);
+
+    println!("----------------");
+
+    color::main_color();
 
 }
